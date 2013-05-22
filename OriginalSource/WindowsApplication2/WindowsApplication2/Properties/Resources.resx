@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="strasse_30_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_30_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="schaaf3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\schaaf3.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_02_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_02_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="holz1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\holz1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_04_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_04_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_90_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_90_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlaceCity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlaceCity.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ritter_04_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_04_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_04_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_04_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dtl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dtl.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlaceSettlement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlaceSettlement.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="blank" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0blank.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_120_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_120_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_03_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_03_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_04_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_04_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_02_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_02_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playermap_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playermap_ok.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_06_ben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_06_ben.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="getreide4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\getreide4.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_03_ben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_03_ben.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trade.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="haus_05_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_05_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_01_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_01_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="uebersicht1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\uebersicht1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_04_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_04_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_05_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_05_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_120_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_120_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlaceRoad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlaceRoad.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="haus_03_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_03_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_01_ben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_01_ben.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_30_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_30_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_01_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_01_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_02_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_02_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_03_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_03_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_03_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_03_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gold6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gold6.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_01_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_01_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_05_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_05_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_06_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_06_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_01_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_01_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_05_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_05_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_02_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_02_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_120_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_120_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_02_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_02_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_03_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_03_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_05_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_05_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_02_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_02_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_03_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_03_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_01_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_01_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_01_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_01_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_04_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_04_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0grey.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_06_frei1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_06_frei.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_06_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_06_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_03_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_03_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_90_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_90_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_04_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_04_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_05_ben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_05_ben.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_03_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_03_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_02_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_02_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_01_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_01_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_02_ben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_02_ben.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_04_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_04_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gb.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlaceKnight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlaceKnight.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="erz5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erz5.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_06_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_06_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RollDice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RollDice.wav;System.IO.MemoryStream, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="haus_05_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_05_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_02_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_02_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_06_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_06_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_04_ben" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_04_ben.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_90_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_90_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_02_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_02_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_06_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_06_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stadt_04_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stadt_04_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_03_aus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_03_aus.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="strasse_30_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\strasse_30_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_01_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_01_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ritter_01_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ritter_01_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haus_06_an" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haus_06_an.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lehm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lehm2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Getreide_auswahl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Getreide_auswahl.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Getreide_benutzt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Getreide_benutzt.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Getreide_frei" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Getreide_frei.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Getreide_gebaut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Getreide_gebaut.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

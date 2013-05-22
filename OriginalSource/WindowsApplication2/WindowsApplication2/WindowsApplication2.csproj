@@ -1,0 +1,376 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AE22E860-688B-4BE0-8A28-C5291EC841C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication2</AssemblyName>
+    <ManifestCertificateThumbprint>F360D1C17325696CC259FB8E910C32E52C8D9A80</ManifestCertificateThumbprint>
+    <ManifestKeyFile>WindowsApplication2_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>C:\Dokumente und Einstellungen\Simon\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\siedler.cs">
+      <Link>siedler.cs</Link>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="..\..\siedler.Designer.cs">
+      <Link>siedler.Designer.cs</Link>
+      <DependentUpon>siedler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="..\..\siedler.resx">
+      <Link>siedler.resx</Link>
+      <DependentUpon>siedler.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0blank.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0grey.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WindowsApplication2_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_01_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_01_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_01_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_02_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_02_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_02_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_03_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_03_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_03_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_04_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_04_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_04_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_05_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_05_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_05_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_06_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_06_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haus_06_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter01g.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter01j.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_01_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_01_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_01_ben.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_01_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_02_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_02_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_02_ben.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_02_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_03_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_03_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_03_ben.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_03_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_04_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_04_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_04_ben.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_04_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_05_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_05_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_05_ben.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_05_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_06_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_06_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_06_ben.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_06_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_01_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_01_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_01_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_02_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_02_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_02_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_03_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_03_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_03_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_04_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_04_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stadt_04_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_30_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_30_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_30_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_90_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_90_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_90_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_120_an.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_120_aus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\strasse_120_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dtl.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gb.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlaceCity.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlaceKnight.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlaceRoad.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlaceSettlement.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RollDice.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Trade.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playermap_ok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uebersicht1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\holz1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lehm2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\schaaf3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\getreide4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\erz5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gold6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ritter_06_frei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Getreide_auswahl.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Getreide_benutzt.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Getreide_frei.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Getreide_gebaut.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
